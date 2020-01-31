@@ -1,0 +1,99 @@
+div#header ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Verdana; "Lucida Grande"; Sans-Serif;
+}
+
+div#header li  {
+  float: left;
+}
+
+div#header li a {
+  display: block;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+div#header li a:link {
+  display: block;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #ff0000;
+}
+
+div#header li a:visited {
+  display: block;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #DC143C;
+}
+
+.center
+{
+    width:65%;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.border {
+    border-width: 10px;
+    border-color: white;
+    border-style: groove;
+}
+
+.container-left {
+  display: block;
+  margin: 75px;
+  float: left;
+}
+
+.container-img-left {
+    float: left;
+}
+
+.container-img-left img {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.container-cont-left {
+    display: inline-block;
+    line-height: 400px;
+}
+
+h3 {
+    display: inline-block;
+    padding-right: 100px;
+}
+
+.container-right {
+  display: block;
+  margin: 25px;
+  float: right;
+}
+
+.container-img-right {
+    float: right;
+    display: inline;
+}
+
+.container-img-right img {
+    display: inline;
+    float: right;
+}
+
+.container-cont-right {
+    padding-right: 100px;
+    line-height: 400px;
+}
+
