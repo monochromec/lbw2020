@@ -25,9 +25,14 @@ $linkColorNdx = array(0, 0, 0, 1, 1, 1);
 $link = sprintf('link="%s" vlink="%s"', $linkColor[$linkColorNdx[$ndx]][0], $linkColor[$linkColorNdx[$ndx]][1]); 
 $body = sprintf('<body %s style="font-family: Times New Roman, Times, serif; font-size:  large; %s">', $link, $pic);
 echo($body);
-?>    
-<center><h2>The Linux Bier Wanderung (LBW,
-engl.: Linux Beer Hike) 2020<br>August 30th - September 5th 2020</h2></center>
+?>
+<div id="background">
+  <p id="bg-text">Cancelled</p>
+</div>
+<div id="content">
+       <center><h2>Due to the current situation, this event has been cancelled.<br>
+     <del>The Linux Bier Wanderung (LBW,
+engl.: Linux Beer Hike) 2020<br>August 30th - September 5th 2020</del></h2></center>
 <p>
 This is a rough-and-ready proposal for next year's LBW. As this is a
 minimax project (minimal effort for maximum results), you may encounter
@@ -203,6 +208,9 @@ answers accompanying questions are more than welcome, even you don't have an ans
 Answers mailed to me without correpsonding questons should be marked as such and I'll include them at my discretion :-).
 </p>
 <ul>
+<li><i>Why has this even been cancelled?</i> Due to the current circumstances in addition to the inability to plan for the situation at the end
+of August / earl September timeframe in light of the current legislative restrictions, unfortunately the org team decided to cancel this event.
+<li>Will there be a virtual LBW?</i>No internet-only, virtual, etc. nonsene will be offered as a major component is the pyhsical interaction between the participants. 
 <li><i>Why do we need an FAQ?</i> The answer is somewhat metapyhsical: As you're reading this, there's clearly a need for an FAQ (even if it's your 
 curiosity which is driving this :-). Plus nowadays all the web sites of the cool hippster places featuring members Generation Z enjoying their vegansojadecaflattesteakflavouredmintbased cappucinos and hamering away on their Dell XPS (the new MacBook of that generation running equally hip open source operating systems) 
 have FAQ pages. Move on! :-)
@@ -242,5 +250,9 @@ its eveness and checking Cochrane-warp indexes before undertaking any inter-stel
 echo($text[$ndx]);
 ?>
 <span style=font-size:small>All imaging &copy; and courtesy of <a href=https://www.wikimedia.org target=_blank>Wikimedia</a> All other website content &copy; LBW, licensed
-       <a href=https://creativecommons.org/licenses/by/4.0 target=_blank>CC-BY 4.0</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Imprint: LinuxBierWanderung.com</span>
+       <a href=https://creativecommons.org/licenses/by/4.0
+       target=_blank>CC-BY
+       4.0</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Imprint:
+       LinuxBierWanderung.com</span>
+</div>
 </body>
